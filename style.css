@@ -21,20 +21,20 @@ header #links {
     display: flex;
     justify-content: flex-end;
     z-index: 1000;
-    position: relative;
+    position: absolute;
     top: 51px;
     left: 181px;
 
 }
 #player1{
     position: absolute;
-    margin-left: 386px;
+    left: 386px;
     top: 140px;
     scale: 90%;
   }
   #player2{
     position: absolute;
-    margin-left: 589px;
+    left: 589px;
     top: 140px;
     scale: 90%;
   }
@@ -49,21 +49,20 @@ header #links {
 #index {
     text-decoration: underline yellow 2px;
     display: block;
-    margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 31%;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 289px;
 
 }
 
 #index2 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    width: 39%;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 795px;
 }
 
 a {
@@ -118,16 +117,6 @@ footer {
     background-image: url(./Imagenes_Coliseo/Coliseo.png);
     margin: 0;
 }
-
-/* header #links {
-    display: flex;
-    justify-content: flex-end;
-    z-index: 1000;
-    position: relative;
-  
-  } */
-
-
 #buscador {
     width: 141px;
 }
@@ -137,28 +126,10 @@ footer {
     width: 141px;
 }
 
-/* #index {
-    margin-right: 790px;
-    margin-top: -120px;
-  
-  
-  } */
-
-/* #index2{
-    margin-right: 470px;
-    margin-top: -120px;
-  }
-  
-  a {
-    color: yellow;
-    font-size: 15px;
-    text-decoration: none;
-  } */
-
 #pokemon1 {
     position: absolute;
     left: 8%;
-    margin-top: 90px;
+    margin-top: 246px;
     width: 800px;
     z-index: 1;
 
@@ -176,7 +147,7 @@ footer {
 #pokeImage {
     background-image: url(./statsBackground.png) no-repeat;
     position: relative;
-    top: 0;
+    top: 21px;
     left: 0;
 }
 
@@ -199,19 +170,19 @@ footer {
 
 #stats {
     position: absolute;
-    top: 120px;
+    top: 141px;
     left: 410px;
 }
 
 #selection1 {
     position: absolute;
-    top: 384px;
+    top: 422px;
     left: 247px;
     background-color: white;
     border: none;
     color: black;
     width: 190px;
-    height: 51px;
+    height: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -283,10 +254,23 @@ footer {
     display: inline-block;
     font-size: 16px;
     padding: 0;
-
-
 }
 
+#vs{
+    top: 900px;
+    display: flex;
+    left: 43%;
+    scale: 70%;
+}
+#pokeselect1{
+    top:10px;
+    position: absolute;
+}
+#pokeselect2 {
+    top: 200px;
+    position: absolute;
+    left: 1500px;
+}
 /*********************** tercer html ************************/ 
  
 #pokemonVSpokemon{
