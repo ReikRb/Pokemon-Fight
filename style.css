@@ -22,17 +22,21 @@ header #links {
     justify-content: flex-end;
     z-index: 1000;
     position: relative;
+    top: 51px;
+    left: 181px;
 
 }
 #player1{
     position: absolute;
-    margin-left: 374px;
+    margin-left: 386px;
     top: 140px;
+    scale: 90%;
   }
   #player2{
     position: absolute;
-    margin-left: 605px;
+    margin-left: 589px;
     top: 140px;
+    scale: 90%;
   }
   #buscador{
     width: 141px;
