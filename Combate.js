@@ -59,8 +59,11 @@ function pokeDex(){
             d.preventDefault()
             pokemonSelect()
             document.querySelector("#player1").innerHTML=""
-            document.querySelector("#selection1").value =`SELECTED
-            `
+            document.querySelector("#selection1").value ="SELECTED"
+            document.querySelector("#vs").innerHTML=`<img id="vs"src="./Imagenes_Coliseo/VS.png">`
+            if ((selection1.value) == "SELECTED" && (selection2.value) == "SELECTED"){
+                location.href ="./pokemonVSpokemon.html";
+            }
         }) 
         
         function pokemonSelect(){
@@ -119,9 +122,11 @@ function pokeDex2(){
             e.preventDefault()
             pokemonSelect2()
             document.querySelector("#player2").innerHTML=""
-            document.querySelector("#selection2").value =`SELECTED
-            `
-        
+            document.querySelector("#selection2").value =`SELECTED`
+            document.querySelector("#vs").innerHTML=`<img id="vs"src="./Imagenes_Coliseo/VS.png">`
+            if ((selection1.value) == "SELECTED" && (selection2.value) == "SELECTED"){
+                location.href ="./pokemonVSpokemon.html";
+            }
         }) 
         
         function pokemonSelect2(){
