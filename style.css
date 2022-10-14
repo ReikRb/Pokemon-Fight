@@ -3,11 +3,10 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-body {
+#puebloPaleta{
     margin: 0;
     background-image: url("Pallet_Town.png");
     background-size: 100%;
-    font-family: 'Press Start 2P', cursive;
     min-height: 100vh;
 }
 
