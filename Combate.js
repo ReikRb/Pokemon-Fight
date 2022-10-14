@@ -132,3 +132,6 @@ function pokeDex2(){
         }
     })
 }
+
+
+
