@@ -120,12 +120,18 @@ function pokeDex2(){
         }
         document.querySelector("input[id='selection2']").addEventListener("click", (e) =>{
             e.preventDefault()
-            pokemonSelect2()
+            let atributos2 = pokemonSelect2()
             document.querySelector("#player2").innerHTML=""
             document.querySelector("#selection2").value =`SELECTED`
             document.querySelector("#vs").innerHTML=`<img id="vs"src="./Imagenes_Coliseo/VS.png">`
             if ((selection1.value) == "SELECTED" && (selection2.value) == "SELECTED"){
-                location.href ="./pokemonVSpokemon.html";
+                document.querySelector("body").innerHTML = ""
+                let atk = atributos2.stats[1].base_stat
+                let def = atributos2.stats[2].base_stat
+                let speed = atributos2.stats[5].base_stat
+                let hp = atributos2.stats[0].base_stat
+                let name = atributos2.name
+
             }
         }) 
         
@@ -134,9 +140,18 @@ function pokeDex2(){
             let selection = JSON.stringify(obj)
             localStorage.setItem("Pokemon2", selection)
             let atributos2 = JSON.parse(localStorage.getItem("Pokemon2"))
+            return atributos2
         }
     })
 }
+
+
+///////////////////////////////////////    tercer html      //////////////////////////////////////////////////
+
+
+
+
+
 
 
 
