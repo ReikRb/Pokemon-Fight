@@ -286,10 +286,7 @@ footer {
 /*********************** tercer html ************************/ 
  
 #pokemonVSpokemon{
-    margin: 0;
-    background-image: url("./Imagenes_Coliseo/Batalla.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 
